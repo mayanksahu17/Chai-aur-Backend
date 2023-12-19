@@ -24,7 +24,8 @@ import router from './routes/user.routes.js'
 
 
 // routes declairation 
-app.use("api/v1/users", router)
+
+app.use("/api/v1/users", router)
 
 
 export {app}
